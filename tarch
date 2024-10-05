@@ -2,6 +2,7 @@
 
 # Create a virtual environment if it does not exist
 if [ ! -d "venv" ]; then
+  # shellcheck disable=SC1091
   python3 -m venv venv && \
   source venv/bin/activate && \
   pip install -r requirements.txt && \
@@ -9,6 +10,7 @@ if [ ! -d "venv" ]; then
 fi
 
 # Activate the virtual environment
+# shellcheck disable=SC1091
 source venv/bin/activate
 
 # Run the Python script
