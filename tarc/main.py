@@ -154,7 +154,7 @@ def list_clients(conn):
     return rows
 
 
-parser = argparse.ArgumentParser(description="Manage BitTorrent datasets", prog="tarch")
+parser = argparse.ArgumentParser(description="Manage BT archives", prog="tarc")
 subparsers = parser.add_subparsers(
     dest="command", required=True, help="Available commands"
 )

@@ -1,0 +1,4 @@
+[project]
+name = "tarc"
+version = "0.0.1dev2"
+description = "Manage BT archives"

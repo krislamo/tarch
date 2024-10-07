@@ -14,7 +14,7 @@ fi
 source venv/bin/activate
 
 # Run the Python script
-python main.py "$@"
+python tarc/main.py "$@"
 
 # Deactivate the virtual environment
 deactivate
